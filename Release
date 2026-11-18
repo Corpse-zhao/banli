@@ -1,11 +1,12 @@
-Origin: banli Repo
-Label: banli Repo
+Origin: 板栗仁
+Label: 板栗仁
+Name: 板栗仁
 Suite: stable
 Codename: stable
 Architectures: iphoneos-arm64e iphoneos-arm64 all
 Components: main
-Description: banli 的越狱插件源（roothide / arm64e）
-Date: Wed, 18 Nov 2026 07:33:07 UTC
+Description: 板栗仁的越狱插件源（roothide / arm64e）
+Date: Wed, 18 Nov 2026 07:36:40 UTC
 SHA256:
  350cb7b647af2d3e384d72318649075cbc48ecc23ecdfc0512ad15c929b39417             1470 Packages
  c8c40d714782b94c63fef4b44d044eb06d31857b2bd326fb6d238860c4ba99ac              846 Packages.gz
