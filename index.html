@@ -1,12 +1,49 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Corpse-zhao Repo</title>
-<style>body{font-family:-apple-system,system-ui,sans-serif;margin:2rem;max-width:900px;color:#222}
-h1{font-size:1.6rem}code{background:#f2f2f7;padding:2px 6px;border-radius:4px}
-table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:8px;text-align:left;font-size:14px}
-th{background:#f2f2f7}</style></head><body>
-<h1>Corpse-zhao 越狱源</h1>
-<p>在 Sileo / Zebra 中添加源：<code>https://corpse-zhao.github.io/jb-repo/</code></p>
-<p>适用于 roothide（iphoneos-arm64e），共 17 个插件，每个仅保留最新版。</p>
-<table><tr><th>Package</th><th>Version</th><th>Arch</th><th>Deb</th></tr><tr><td>com.banliren.mghelper</td><td>0.2.1</td><td>iphoneos-arm64e</td><td>debs/com.banliren.mghelper_0.2.1_iphoneos-arm64e.deb</td></tr><tr><td>com.banliren.wxglass</td><td>0.2.0</td><td>iphoneos-arm64e</td><td>debs/com.banliren.wxglass_0.2.0_iphoneos-arm64e.deb</td></tr><tr><td>com.banliren.wxpet</td><td>0.1.0</td><td>iphoneos-arm64e</td><td>debs/com.banliren.wxpet_0.1.0_iphoneos-arm64e.deb</td></tr><tr><td>com.blr.decoylock</td><td>0.2.6</td><td>iphoneos-arm64e</td><td>debs/com.blr.decoylock_0.2.6_iphoneos-arm64e.deb</td></tr><tr><td>com.blr.jbbackup</td><td>0.2.1</td><td>iphoneos-arm64e</td><td>debs/com.blr.jbbackup_0.2.1_iphoneos-arm64e.deb</td></tr><tr><td>com.blr.safemodeguard</td><td>0.2.0</td><td>iphoneos-arm64e</td><td>debs/com.blr.safemodeguard_0.2.0_iphoneos-arm64e.deb</td></tr><tr><td>com.colorblack.wetypeenhance</td><td>1.9.3</td><td>iphoneos-arm64e</td><td>debs/com.colorblack.wetypeenhance_1.9.3_iphoneos-arm64e.deb</td></tr><tr><td>com.corpse.islandblob</td><td>0.4.9</td><td>iphoneos-arm64e</td><td>debs/com.corpse.islandblob_0.4.9_iphoneos-arm64e.deb</td></tr><tr><td>com.corpsezhao.carplayx</td><td>0.2.2</td><td>iphoneos-arm64e</td><td>debs/com.corpsezhao.carplayx_0.2.2_iphoneos-arm64e.deb</td></tr><tr><td>com.corpsezhao.mctouchhelper</td><td>0.1.0</td><td>iphoneos-arm64e</td><td>debs/com.corpsezhao.mctouchhelper_0.1.0_iphoneos-arm64e.deb</td></tr><tr><td>com.corpsezhao.ninebotskin</td><td>0.2.14</td><td>iphoneos-arm64e</td><td>debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb</td></tr><tr><td>com.corpsezhao.wifirelay</td><td>0.1.0</td><td>iphoneos-arm64e</td><td>debs/com.corpsezhao.wifirelay_0.1.0_iphoneos-arm64e.deb</td></tr><tr><td>com.corpsezhao.wxhidebar</td><td>0.1.0</td><td>iphoneos-arm64e</td><td>debs/com.corpsezhao.wxhidebar_0.1.0_iphoneos-arm64e.deb</td></tr><tr><td>com.corpsezhao.wxhidebarkbd</td><td>0.1.0</td><td>iphoneos-arm64e</td><td>debs/com.corpsezhao.wxhidebarkbd_0.1.0_iphoneos-arm64e.deb</td></tr><tr><td>com.cz.dockscroller</td><td>0.1.14</td><td>iphoneos-arm64e</td><td>debs/com.cz.dockscroller_0.1.14_iphoneos-arm64e.deb</td></tr><tr><td>com.dy.glassdock</td><td>0.2.0</td><td>iphoneos-arm64e</td><td>debs/com.dy.glassdock_0.2.0_iphoneos-arm64e.deb</td></tr><tr><td>com.zhao.wxkb-liquid-glass</td><td>1.1.0</td><td>iphoneos-arm64e</td><td>debs/com.zhao.wxkb-liquid-glass_1.1.0_iphoneos-arm64e.deb</td></tr></table>
-</body></html>
+<title>Corpse-zhao 越狱源</title>
+<style>
+:root{--accent:#5b5bd6;--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--sub:#6e6e73;--line:#e5e5ea}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;line-height:1.5}
+.wrap{max-width:760px;margin:0 auto;padding:48px 20px 64px}
+header{text-align:center;margin-bottom:36px}
+.badge{display:inline-block;font-size:12px;font-weight:600;color:var(--accent);
+background:color-mix(in srgb,var(--accent) 12%,white);padding:5px 12px;border-radius:100px;margin-bottom:14px}
+h1{font-size:2rem;margin:0 0 8px;letter-spacing:-.5px}
+.tagline{color:var(--sub);font-size:15px;margin:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 24px;
+margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.03)}
+.card h2{font-size:15px;margin:0 0 14px;color:var(--sub);font-weight:600}
+.srcrow{display:flex;gap:10px;align-items:center}
+.srcrow code{flex:1;background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:12px 14px;font-size:13px;overflow-x:auto;white-space:nowrap;color:var(--ink)}
+button{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:12px 18px;
+font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+button:active{opacity:.85}
+.stats{display:flex;gap:32px;justify-content:center;margin:8px 0 32px}
+.stat b{display:block;font-size:24px;color:var(--accent)}
+.stat span{font-size:12px;color:var(--sub)}
+section h2{font-size:15px;color:var(--sub);font-weight:600;margin:0 0 12px}
+.count{background:var(--line);color:var(--sub);border-radius:100px;padding:2px 9px;font-size:12px}
+.table-wrap{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+table{border-collapse:collapse;width:100%;font-size:13px}
+td,th{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--bg);color:var(--sub);font-size:12px}
+tr:last-child td{border-bottom:0}
+td.pkg{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.tag{background:var(--bg);border-radius:6px;padding:2px 8px;font-size:11px;color:var(--sub)}
+a{color:var(--accent);text-decoration:none}
+footer{text-align:center;color:var(--sub);font-size:12px;margin-top:32px}
+</style></head><body><div class="wrap">
+<header><span class='badge'>roothide · arm64e</span><h1>Corpse-zhao 越狱源</h1><p class="tagline">我的 roothide 插件集合 · 每个插件只保留最新版</p></header>
+<div class="card"><h2>添加源到 Sileo / Zebra</h2>
+<div class="srcrow"><code id="src">https://corpse-zhao.github.io/banli/</code><button onclick="cp()">复制</button></div></div>
+<div class="stats"><div class="stat"><b>17</b><span>插件</span></div>
+<div class="stat"><b>arm64e</b><span>架构</span></div><div class="stat"><b>最新版</b><span>策略</span></div></div>
+<section><h2>插件列表 <span class='count'>17</span></h2><div class='table-wrap'><table><thead><tr><th>Package</th><th>Version</th><th>Arch</th><th>Deb</th></tr></thead><tbody><tr><td class='pkg'>com.banliren.mghelper</td><td>0.2.1</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.banliren.mghelper_0.2.1_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.banliren.wxglass</td><td>0.2.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.banliren.wxglass_0.2.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.banliren.wxpet</td><td>0.1.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.banliren.wxpet_0.1.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.blr.decoylock</td><td>0.2.6</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.blr.decoylock_0.2.6_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.blr.jbbackup</td><td>0.2.1</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.blr.jbbackup_0.2.1_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.blr.safemodeguard</td><td>0.2.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.blr.safemodeguard_0.2.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.colorblack.wetypeenhance</td><td>1.9.3</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.colorblack.wetypeenhance_1.9.3_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpse.islandblob</td><td>0.4.9</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpse.islandblob_0.4.9_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpsezhao.carplayx</td><td>0.2.2</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpsezhao.carplayx_0.2.2_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpsezhao.mctouchhelper</td><td>0.1.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpsezhao.mctouchhelper_0.1.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpsezhao.ninebotskin</td><td>0.2.14</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpsezhao.wifirelay</td><td>0.1.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpsezhao.wifirelay_0.1.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpsezhao.wxhidebar</td><td>0.1.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpsezhao.wxhidebar_0.1.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.corpsezhao.wxhidebarkbd</td><td>0.1.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.corpsezhao.wxhidebarkbd_0.1.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.cz.dockscroller</td><td>0.1.14</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.cz.dockscroller_0.1.14_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.dy.glassdock</td><td>0.2.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.dy.glassdock_0.2.0_iphoneos-arm64e.deb'>下载</a></td></tr><tr><td class='pkg'>com.zhao.wxkb-liquid-glass</td><td>1.1.0</td><td><span class='tag'>iphoneos-arm64e</span></td><td><a href='debs/com.zhao.wxkb-liquid-glass_1.1.0_iphoneos-arm64e.deb'>下载</a></td></tr></tbody></table></div></section>
+<footer>由 Corpse-zhao 维护 · 仅供个人越狱设备使用</footer>
+</div><script>
+function cp(){var t=document.getElementById('src').textContent;
+if(navigator.clipboard){navigator.clipboard.writeText(t).then(function(){var b=document.querySelector('button');b.textContent='已复制';setTimeout(function(){b.textContent='复制'},1500)})}
+else{var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta)}}
+</script></body></html>
