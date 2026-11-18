@@ -5,7 +5,7 @@ Codename: stable
 Architectures: iphoneos-arm64e iphoneos-arm64 all
 Components: main
 Description: banli 的越狱插件源（roothide / arm64e）
-Date: Wed, 18 Nov 2026 06:36:37 UTC
+Date: Wed, 18 Nov 2026 06:42:47 UTC
 SHA256:
  119293e6000d48e6667bb164daca642d64031d82b50b51bca02f70d75bc418d1             9324 Packages
  415f7f510577a0893aada8ea2ac10e4e887787c794a5c4ee9f059c02cd48437d             3805 Packages.gz
