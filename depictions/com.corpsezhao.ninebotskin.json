@@ -1,0 +1,68 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://corpse-zhao.github.io/banli/banner.jpg",
+  "tintColor": "#5b5bd6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "NinebotSkin"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "版本 0.2.14 · iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "九号出行车辆图/背景图替换（roothide 版）。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "screenshots": [
+            {
+              "url": "https://corpse-zhao.github.io/banli/banner.jpg",
+              "accessibilityText": "NinebotSkin 预览图"
+            }
+          ],
+          "itemCornerRadius": 12,
+          "itemSize": {
+            "x": 240,
+            "y": 135
+          }
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包名",
+          "text": "com.corpsezhao.ninebotskin"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.2.14"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "下载 deb",
+          "action": "https://corpse-zhao.github.io/banli/debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb"
+        }
+      ]
+    }
+  ]
+}

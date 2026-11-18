@@ -8,6 +8,8 @@ Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
 Version: 0.2.1
 Installed-Size: 172
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.banliren.mghelper.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/com.banliren.mghelper.json
 Filename: debs/com.banliren.mghelper_0.2.1_iphoneos-arm64e.deb
 Size: 13708
 SHA256: 2a0f3c78676a1d94636fca86808f79a30028cc593a8ecf16a4f0834e06e4a07e
@@ -22,6 +24,8 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 0.2.14
 Installed-Size: 340
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 Filename: debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb
 Size: 58962
 SHA256: 29d2b4b253fff8a163ab4d4ad279aa93f478bdd5157420b51b264386f635095f
@@ -37,6 +41,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Installed-Size: 168
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
 Filename: debs/com.corpsezhao.wxhidebar_0.1.0_iphoneos-arm64e.deb
 Size: 5806
 SHA256: 082a2814f5cf15efce8d5c9e23df9fe18576337c68f6c0ecf883e9a024761da5

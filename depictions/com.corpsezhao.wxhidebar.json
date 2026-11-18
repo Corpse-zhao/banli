@@ -1,0 +1,68 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://corpse-zhao.github.io/banli/banner.jpg",
+  "tintColor": "#5b5bd6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "WxHideBar"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "版本 0.1.0 · iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "隐藏微信输入法键盘工具栏按钮：左侧绿色 logo 与工具栏最右侧按钮（主 App 版）。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "screenshots": [
+            {
+              "url": "https://corpse-zhao.github.io/banli/banner.jpg",
+              "accessibilityText": "WxHideBar 预览图"
+            }
+          ],
+          "itemCornerRadius": 12,
+          "itemSize": {
+            "x": 240,
+            "y": 135
+          }
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包名",
+          "text": "com.corpsezhao.wxhidebar"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "下载 deb",
+          "action": "https://corpse-zhao.github.io/banli/debs/com.corpsezhao.wxhidebar_0.1.0_iphoneos-arm64e.deb"
+        }
+      ]
+    }
+  ]
+}
