@@ -9,15 +9,15 @@
       "views" : [
         {
           "class" : "DepictionHeaderView",
-          "title" : "NinebotSkin"
+          "title" : "Ninebotskin"
         },
         {
           "class" : "DepictionSubheaderView",
-          "title" : "版本 0.2.14 · iphoneos-arm64e"
+          "title" : "版本 0.2.16 · iphoneos-arm64e"
         },
         {
           "class" : "DepictionMarkdownView",
-          "markdown" : "九号出行车辆图\/背景图替换（roothide 版）。",
+          "markdown" : "修改九号 app背景图 跟车辆，支持视频",
           "useSpacing" : true
         },
         {
@@ -32,7 +32,7 @@
           },
           "screenshots" : [
             {
-              "accessibilityText" : "NinebotSkin 预览图",
+              "accessibilityText" : "Ninebotskin 预览图",
               "url" : "https:\/\/corpse-zhao.github.io\/banli\/banner.jpg"
             }
           ]
@@ -48,7 +48,7 @@
         },
         {
           "class" : "DepictionTableTextView",
-          "text" : "0.2.14",
+          "text" : "0.2.16",
           "title" : "版本"
         },
         {
@@ -57,7 +57,7 @@
           "title" : "架构"
         },
         {
-          "action" : "https:\/\/corpse-zhao.github.io\/banli\/debs\/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb",
+          "action" : "https:\/\/corpse-zhao.github.io\/banli\/debs\/com.corpsezhao.ninebotskin_0.2.16_iphoneos-arm64e.deb",
           "class" : "DepictionTableButtonView",
           "title" : "下载 deb"
         }
