@@ -7,8 +7,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 
 Installed-Size: 100
-Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 Filename: debs/CC 自建模块.deb
 Size: 323932
 SHA256: 9a69e0b8216183883e01ce7c5743cbab7504588027741d9a3afdf63d8e4af75f
@@ -17,13 +17,14 @@ MD5sum: 047a5ae2900d19d22758da23f7e52e69
 Package: com.corpsezhao.ninebotskin
 Name: NinebotSkin
 Description: 九号出行车辆图/背景图替换（roothide 版）。
+Maintainer: 板栗
 Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.2.14
 Installed-Size: 100
-Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 Filename: debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb
 Size: 58962
 SHA256: 29d2b4b253fff8a163ab4d4ad279aa93f478bdd5157420b51b264386f635095f
