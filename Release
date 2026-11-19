@@ -6,7 +6,7 @@ Codename: stable
 Architectures: iphoneos-arm64e iphoneos-arm64 all
 Components: main
 Description: corpse-zhao 的越狱插件源（RepoManager 管理）
-Date: Thu, 19 Nov 2026 02:38:07 UTC
+Date: Thu, 19 Nov 2026 02:43:39 UTC
 SHA256:
- 4daeff8f356b8a13b5dc788a6d6ca7fd0145e0c615e7df34832ad47e3f164a79             2479 Packages
- 3fb91e3684ac68f802996d78f0e5d0634d118993f2d6c5963fb1790aa5dac495             2502 Packages.gz
+ fedfcf17e3f30e2f4ff8f753f2288d346bece54f0eb31a746297458eada13c52             1802 Packages
+ 0b84e0bc7d131baebd6ead888ff9d5ce69ab399e6374c63cbd0dc4f6e188ac14             1825 Packages.gz

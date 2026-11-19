@@ -7,8 +7,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 
 Installed-Size: 100
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 Filename: debs/CC 自建模块.deb
 Size: 323932
 SHA256: 9a69e0b8216183883e01ce7c5743cbab7504588027741d9a3afdf63d8e4af75f
@@ -44,19 +44,3 @@ Filename: debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb
 Size: 58962
 SHA256: 29d2b4b253fff8a163ab4d4ad279aa93f478bdd5157420b51b264386f635095f
 MD5sum: eadec600bd8717957442da228c3d17c6
-
-Package: com.corpsezhao.wxhidebar
-Name: WxHideBar
-Description: 隐藏微信输入法键盘工具栏按钮：左侧绿色 logo 与工具栏最右侧按钮（主 App 版）。
-Maintainer: Corpse-zhao
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64e
-Version: 0.1.0
-Installed-Size: 100
-Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
-Filename: debs/com.corpsezhao.wxhidebar_0.1.0_iphoneos-arm64e.deb
-Size: 5806
-SHA256: 082a2814f5cf15efce8d5c9e23df9fe18576337c68f6c0ecf883e9a024761da5
-MD5sum: 4597812c83c9a5de0377b10625e617ce
