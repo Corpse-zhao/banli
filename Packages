@@ -1,13 +1,28 @@
+Package: CC 自建模块
+Name: Cc 自建模块
+Description: Cc 自建模块
+Maintainer: corpse-zhao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 
+Installed-Size: 100
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
+Filename: debs/CC 自建模块.deb
+Size: 323932
+SHA256: 9a69e0b8216183883e01ce7c5743cbab7504588027741d9a3afdf63d8e4af75f
+MD5sum: 047a5ae2900d19d22758da23f7e52e69
+
 Package: com.banliren.mghelper
 Name: MGHelper
 Description: MG Live 车况小组件辅助：桥接 App 容器数据到小组件容器并自动获取登录凭证。
 Maintainer: 板栗仁
-Author: 板栗仁
 Section: Utilities
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
 Version: 0.2.1
-Installed-Size: 172
+Installed-Size: 100
 SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.banliren.mghelper.json
 Depiction: https://corpse-zhao.github.io/banli/depictions/com.banliren.mghelper.json
 Filename: debs/com.banliren.mghelper_0.2.1_iphoneos-arm64e.deb
@@ -17,15 +32,14 @@ MD5sum: a007cfcc71079253e074e0e20089d296
 
 Package: com.corpsezhao.ninebotskin
 Name: NinebotSkin
-Depends: mobilesubstrate
 Description: 九号出行车辆图/背景图替换（roothide 版）。
-Author: Corpse-zhao
 Section: Tweaks
+Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.2.14
-Installed-Size: 340
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
+Installed-Size: 100
 Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 Filename: debs/com.corpsezhao.ninebotskin_0.2.14_iphoneos-arm64e.deb
 Size: 58962
 SHA256: 29d2b4b253fff8a163ab4d4ad279aa93f478bdd5157420b51b264386f635095f
@@ -35,16 +49,14 @@ Package: com.corpsezhao.wxhidebar
 Name: WxHideBar
 Description: 隐藏微信输入法键盘工具栏按钮：左侧绿色 logo 与工具栏最右侧按钮（主 App 版）。
 Maintainer: Corpse-zhao
-Author: Corpse-zhao
 Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.1.0
-Installed-Size: 168
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
+Installed-Size: 100
 Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.wxhidebar.json
 Filename: debs/com.corpsezhao.wxhidebar_0.1.0_iphoneos-arm64e.deb
 Size: 5806
 SHA256: 082a2814f5cf15efce8d5c9e23df9fe18576337c68f6c0ecf883e9a024761da5
 MD5sum: 4597812c83c9a5de0377b10625e617ce
-

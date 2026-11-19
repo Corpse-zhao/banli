@@ -1,13 +1,12 @@
-Origin: 板栗仁
-Label: 板栗仁
-Name: 板栗仁
+Origin: corpse-zhao Repo
+Label: corpse-zhao Repo
+Name: corpse-zhao
 Suite: stable
 Codename: stable
 Architectures: iphoneos-arm64e iphoneos-arm64 all
 Components: main
-Description: 板栗仁的越狱插件源（roothide / arm64e）
-Date: Wed, 18 Nov 2026 07:49:10 UTC
+Description: corpse-zhao 的越狱插件源（RepoManager 管理）
+Date: Thu, 19 Nov 2026 02:38:07 UTC
 SHA256:
- dbca0051f8e62601385ff890b1a8e369cb4874a042b6e6bfca5607be67b14210             2011 Packages
- 638a3092e95156a66b97078ddf1be0ded80b5a4c49ef880a12ebc2dc1bf40bda              913 Packages.gz
- 7ca1b154664b34950295fe427665cd3bdecbe778050a6cd5bb726012843a4e62             1044 Packages.bz2
+ 4daeff8f356b8a13b5dc788a6d6ca7fd0145e0c615e7df34832ad47e3f164a79             2479 Packages
+ 3fb91e3684ac68f802996d78f0e5d0634d118993f2d6c5963fb1790aa5dac495             2502 Packages.gz
