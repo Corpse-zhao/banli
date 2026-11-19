@@ -14,22 +14,6 @@ Size: 323932
 SHA256: 9a69e0b8216183883e01ce7c5743cbab7504588027741d9a3afdf63d8e4af75f
 MD5sum: 047a5ae2900d19d22758da23f7e52e69
 
-Package: com.banliren.mghelper
-Name: MGHelper
-Description: MG Live 车况小组件辅助：桥接 App 容器数据到小组件容器并自动获取登录凭证。
-Maintainer: 板栗仁
-Section: Utilities
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Version: 0.2.1
-Installed-Size: 100
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.banliren.mghelper.json
-Depiction: https://corpse-zhao.github.io/banli/depictions/com.banliren.mghelper.json
-Filename: debs/com.banliren.mghelper_0.2.1_iphoneos-arm64e.deb
-Size: 13708
-SHA256: 2a0f3c78676a1d94636fca86808f79a30028cc593a8ecf16a4f0834e06e4a07e
-MD5sum: a007cfcc71079253e074e0e20089d296
-
 Package: com.corpsezhao.ninebotskin
 Name: NinebotSkin
 Description: 九号出行车辆图/背景图替换（roothide 版）。
