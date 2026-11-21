@@ -7,8 +7,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 
 Installed-Size: 100
-Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 Filename: debs/CC 自建模块.deb
 Size: 323932
 SHA256: 9a69e0b8216183883e01ce7c5743cbab7504588027741d9a3afdf63d8e4af75f
@@ -23,9 +23,25 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.2.16
 Installed-Size: 100
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 Filename: debs/com.corpsezhao.ninebotskin_0.2.16_iphoneos-arm64e.deb
 Size: 59562
 SHA256: ade950db1621133d014dbc0fa13a18f8f905e0dc34f7d30891119c49a54a7726
 MD5sum: 7a916c4fdafb45031e7052af46756ac2
+
+Package: 滑雪板集合版
+Name: 滑雪板集合版
+Description: 滑雪板集合版
+Maintainer: corpse-zhao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 
+Installed-Size: 100
+Depiction: https://corpse-zhao.github.io/banli/depictions/滑雪板集合版.json
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/滑雪板集合版.json
+Filename: debs/滑雪板集合版.deb
+Size: 1255596
+SHA256: 9ac5bb5d7c2fc0e98e749f257394859ab365f01fdad62fd0f956dccf7b012bf9
+MD5sum: 069b3abe4e9317ea301568357dd59ea1

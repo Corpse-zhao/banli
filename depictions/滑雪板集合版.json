@@ -1,0 +1,68 @@
+{
+  "class" : "DepictionTabView",
+  "headerImage" : "https:\/\/corpse-zhao.github.io\/banli\/banner.jpg",
+  "minVersion" : "0.4",
+  "tabs" : [
+    {
+      "class" : "DepictionStackView",
+      "tabname" : "Details",
+      "views" : [
+        {
+          "class" : "DepictionHeaderView",
+          "title" : "滑雪板集合版"
+        },
+        {
+          "class" : "DepictionSubheaderView",
+          "title" : "版本  · iphoneos-arm64e"
+        },
+        {
+          "class" : "DepictionMarkdownView",
+          "markdown" : "滑雪板集合版",
+          "useSpacing" : true
+        },
+        {
+          "class" : "DepictionSeparatorView"
+        },
+        {
+          "class" : "DepictionScreenshotsView",
+          "itemCornerRadius" : 12,
+          "itemSize" : {
+            "x" : 240,
+            "y" : 135
+          },
+          "screenshots" : [
+            {
+              "accessibilityText" : "滑雪板集合版 预览图",
+              "url" : "https:\/\/corpse-zhao.github.io\/banli\/banner.jpg"
+            }
+          ]
+        },
+        {
+          "class" : "DepictionSpacerView",
+          "spacing" : 12
+        },
+        {
+          "class" : "DepictionTableTextView",
+          "text" : "滑雪板集合版",
+          "title" : "包名"
+        },
+        {
+          "class" : "DepictionTableTextView",
+          "text" : "",
+          "title" : "版本"
+        },
+        {
+          "class" : "DepictionTableTextView",
+          "text" : "iphoneos-arm64e",
+          "title" : "架构"
+        },
+        {
+          "action" : "https:\/\/corpse-zhao.github.io\/banli\/debs\/滑雪板集合版.deb",
+          "class" : "DepictionTableButtonView",
+          "title" : "下载 deb"
+        }
+      ]
+    }
+  ],
+  "tintColor" : "#5b5bd6"
+}
