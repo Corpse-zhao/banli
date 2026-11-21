@@ -1,6 +1,7 @@
 {
+  "Cockpit-v0.5.18.ipa" : "仪表台（支持链接控制器跟蚂蚁板）",
+  "CarPlayMaker无锁版.ipa" : "Carplay 换壁纸",
   "DataVision-v1.0.11.ipa" : "数据视界（链接蚂蚁版跟控制器）",
   "NinebotCast-0.19.0-unsigned.ipa" : "九号仪表投屏（仅测试e 80cmk2）",
-  "QuitSmoke.ipa" : "无烟日记（自用戒烟记录）",
-  "CarPlayMaker无锁版.ipa" : "Carplay 换壁纸"
+  "QuitSmoke.ipa" : "无烟日记（自用戒烟记录）"
 }
