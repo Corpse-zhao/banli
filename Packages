@@ -7,12 +7,28 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 
 Installed-Size: 100
-SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 Depiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/CC 自建模块.json
 Filename: debs/CC 自建模块.deb
 Size: 323932
 SHA256: 9a69e0b8216183883e01ce7c5743cbab7504588027741d9a3afdf63d8e4af75f
 MD5sum: 047a5ae2900d19d22758da23f7e52e69
+
+Package: RepoManager
+Name: Repomanager
+Description: 越狱源管理（插件及 ipa备份）
+Maintainer: corpse-zhao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e-1
+Version: 1.1.8
+Installed-Size: 100
+SileoDepiction: https://corpse-zhao.github.io/banli/depictions/RepoManager.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/RepoManager.json
+Filename: debs/RepoManager_1.1.8_iphoneos-arm64e-1.deb
+Size: 1615952
+SHA256: cad02da05e04dd3db01e8f9f41335de7f4cc9624e04f97a2e05365f39e8fed5e
+MD5sum: db0be5699772b6a697ac0117551a5277
 
 Package: com.corpsezhao.ninebotskin
 Name: Ninebotskin
@@ -23,8 +39,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.2.16
 Installed-Size: 100
-Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 SileoDepiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/com.corpsezhao.ninebotskin.json
 Filename: debs/com.corpsezhao.ninebotskin_0.2.16_iphoneos-arm64e.deb
 Size: 59562
 SHA256: ade950db1621133d014dbc0fa13a18f8f905e0dc34f7d30891119c49a54a7726
@@ -55,8 +71,8 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 
 Installed-Size: 100
-Depiction: https://corpse-zhao.github.io/banli/depictions/苏苏控制中心视频.json
 SileoDepiction: https://corpse-zhao.github.io/banli/depictions/苏苏控制中心视频.json
+Depiction: https://corpse-zhao.github.io/banli/depictions/苏苏控制中心视频.json
 Filename: debs/苏苏控制中心视频.deb
 Size: 86792
 SHA256: 17578d3f496ce6e1f7d32daba12c30f97ca7337f4d1f15dd123f5f9ea42f9b4a

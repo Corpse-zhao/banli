@@ -1,0 +1,68 @@
+{
+  "class" : "DepictionTabView",
+  "headerImage" : "https:\/\/corpse-zhao.github.io\/banli\/banner.jpg",
+  "minVersion" : "0.4",
+  "tabs" : [
+    {
+      "class" : "DepictionStackView",
+      "tabname" : "Details",
+      "views" : [
+        {
+          "class" : "DepictionHeaderView",
+          "title" : "Repomanager"
+        },
+        {
+          "class" : "DepictionSubheaderView",
+          "title" : "版本 1.1.8 · iphoneos-arm64e-1"
+        },
+        {
+          "class" : "DepictionMarkdownView",
+          "markdown" : "越狱源管理（插件及 ipa备份）",
+          "useSpacing" : true
+        },
+        {
+          "class" : "DepictionSeparatorView"
+        },
+        {
+          "class" : "DepictionScreenshotsView",
+          "itemCornerRadius" : 12,
+          "itemSize" : {
+            "x" : 240,
+            "y" : 135
+          },
+          "screenshots" : [
+            {
+              "accessibilityText" : "Repomanager 预览图",
+              "url" : "https:\/\/corpse-zhao.github.io\/banli\/banner.jpg"
+            }
+          ]
+        },
+        {
+          "class" : "DepictionSpacerView",
+          "spacing" : 12
+        },
+        {
+          "class" : "DepictionTableTextView",
+          "text" : "RepoManager",
+          "title" : "包名"
+        },
+        {
+          "class" : "DepictionTableTextView",
+          "text" : "1.1.8",
+          "title" : "版本"
+        },
+        {
+          "class" : "DepictionTableTextView",
+          "text" : "iphoneos-arm64e-1",
+          "title" : "架构"
+        },
+        {
+          "action" : "https:\/\/corpse-zhao.github.io\/banli\/debs\/RepoManager_1.1.8_iphoneos-arm64e-1.deb",
+          "class" : "DepictionTableButtonView",
+          "title" : "下载 deb"
+        }
+      ]
+    }
+  ],
+  "tintColor" : "#5b5bd6"
+}
